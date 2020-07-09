@@ -260,6 +260,7 @@ class client():
       self._group_server_handles = {}
       self._group_handles_tag = {}
       self._group_hooks = {}
+      return connected
 
    def GUID(self):
       return self._open_guid
